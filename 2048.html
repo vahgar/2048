@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>2048 The Game</title>
+<link rel="stylesheet" type="text/css" href="2048.css">
+<script type="text/javascript" src="2048.js"></script>
+</head>
+<body id="b">
+	
+	<h1>2048</h1>
+	<div>
+	<div class="button"><button id="button">New Game</button></div>
+	<div><p id="score"></p></div>
+	</div>
+<div id="block" class="flex">
+<div class="smallbox"><p></p></div>
+<div class="smallbox"><p></p></div>
+<div class="smallbox"><p></p></div>
+<div class="smallbox"><p></p></div>
+<div class="smallbox"><p></p></div>
+<div class="smallbox"><p></p></div>
+<div class="smallbox"><p></p></div>
+<div class="smallbox"><p></p></div>
+<div class="smallbox"><p></p></div>
+<div class="smallbox"><p></p></div>
+<div class="smallbox"><p></p></div>
+<div class="smallbox"><p></p></div>
+<div class="smallbox"><p></p></div>
+<div class="smallbox"><p></p></div>
+<div class="smallbox"><p></p></div>
+<div class="smallbox"><p></p></div>
+</div>
+</body>
+<script>
+function init() {
+	Game.init();
+}
+window.addEventListener("load",init);
+</script>
+</html>
